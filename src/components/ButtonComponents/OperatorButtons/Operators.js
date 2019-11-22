@@ -11,7 +11,7 @@ export const Operators = () => {
   const [operatorState, setOperator] = useState(operators);
 
   return (
-    <div>
+    <div className='operators'>
       {operatorState.map((operator, index) => {
         return <OperatorButton key={index} operator={operator.char} />
       })}

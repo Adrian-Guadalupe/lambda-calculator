@@ -25,9 +25,15 @@ function App() {
       <Logo />
       <div className="App">
         <Display />
-        <Specials />
-        <Numbers />
-        <Operators />
+        <div className='button-wrapper'>
+          <div className='left-buttons'>
+            <Specials />
+            <Numbers />
+          </div>
+          <div className='right-buttons'>
+            <Operators />
+          </div>
+        </div> 
       </div>
     </div>
   );

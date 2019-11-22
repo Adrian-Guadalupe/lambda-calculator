@@ -11,7 +11,7 @@ export const Specials = () => {
   const [specialState, setSpecialState] = useState(specials);
 
   return (
-    <div>
+    <div className='specials'>
       {specialState.map(spec => {
         return <SpecialButton special={spec} />
       })}

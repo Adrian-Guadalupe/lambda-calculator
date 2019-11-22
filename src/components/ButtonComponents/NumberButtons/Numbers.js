@@ -14,7 +14,7 @@ export const Numbers = () => {
   const [numberState, setNumberState] = useState(numbers);
   
   return (
-    <div>
+    <div className='numbers'>
       {numberState.map(num => {
         return <NumberButton number={num} />
       })}
