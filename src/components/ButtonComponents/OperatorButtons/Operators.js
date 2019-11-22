@@ -12,8 +12,8 @@ export const Operators = () => {
 
   return (
     <div>
-      {operatorState.map((opObject, index) => {
-        return <OperatorButton key={index} opObject={opObject} />
+      {operatorState.map((operator, index) => {
+        return <OperatorButton key={index} operator={operator.char} />
       })}
     </div>
   );

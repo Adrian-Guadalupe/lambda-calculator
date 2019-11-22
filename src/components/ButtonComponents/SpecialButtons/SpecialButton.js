@@ -1,7 +1,7 @@
 import React from "react";
 
-export const SpecialButton = () => {
+export const SpecialButton = ({ special }) => {
   return (
-    <button className='spec-button'>{props.spec}</button>
+    <button className='spec-button'>{special}</button>
   );
 };

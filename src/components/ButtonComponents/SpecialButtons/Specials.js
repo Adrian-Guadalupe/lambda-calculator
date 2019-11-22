@@ -13,7 +13,7 @@ export const Specials = () => {
   return (
     <div>
       {specialState.map(spec => {
-        return <SpecialButton spec={spec} />
+        return <SpecialButton special={spec} />
       })}
     </div>
   );

@@ -1,7 +1,7 @@
 import React from "react";
 
-export const NumberButton = (props) => {
+export const NumberButton = ({ number }) => {
   return (
-    <button className='num-button'>{props.number}</button>
+    <button className='num-button'>{number}</button>
   );
 };
