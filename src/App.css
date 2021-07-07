@@ -20,3 +20,51 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+.logo-container {
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.spec-button {
+    
+    width: 110px;
+    height: 80px;
+    border-radius: 25px;
+    background-color: rgba(33, 33, 245, 0.747);
+    color: white;
+    font-size: 28px;
+}
+.num-button {
+    width: 110px;
+    height: 80px;
+    border-radius: 25px;
+    background-color: rgba(20, 20, 172, 0.747);
+    color: white;
+    font-size: 28px;
+}
+.op-button {
+    width: 110px;
+    height: 80px;
+    border-radius: 25px;
+    background-color: rgba(48, 125, 197, 0.747);
+    color: white;
+    font-size: 28px;
+}
+.App {
+    margin-left: 25px;
+}
+.left-buttons {
+    width: 337.5px;
+    display: flex;
+    flex-direction: column;
+}
+.right-buttons {
+    width: 112.5px;
+}
+.button-wrapper {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 450px;
+}
